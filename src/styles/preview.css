@@ -1,0 +1,24 @@
+.preview {
+  background-image: url(../assets/preview.jpg);
+  height: 765px;
+  /* background-size: cover; */
+  background-size: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.preview > .container {
+  padding-top: 171px;
+}
+
+.preview-text {
+  font-family: "Aleo";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-top: 46px;
+  margin-bottom: 46px;
+  display: block;
+}

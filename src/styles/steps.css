@@ -1,0 +1,17 @@
+.steps > .container {
+  margin-top: 80px;
+}
+.step {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  row-gap: 30px;
+}
+.step > span {
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0d606f;
+}
