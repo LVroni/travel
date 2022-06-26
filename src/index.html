@@ -22,7 +22,7 @@
   <body>
     <header>
       <div class="container flex-row">
-        <span>
+        <span class="header-logo-txt">
           <img class="header-logo" src="./assets/header-logo.svg" />
           Travel Portal
         </span>
@@ -32,7 +32,7 @@
           <a class="link" id="scroll-destinations"> Destinations</a>
           <a class="link" id="scroll-stories">Travel Stories</a>
         </nav>
-        <button class="login button">Login</button>
+        <button class="login-button">Login</button>
       </div>
     </header>
 
@@ -43,9 +43,14 @@
           <span class="preview-text"
             >Receive personalized recommendations for countries, hotels, activities and more</span
           >
-          <div class="start-planning">
-            <h5>What would you like to do?</h5>
-            <button class="button">Start Planning</button>
+          <div class="search-box">
+            <input
+              class="search-txt"
+              type="text"
+              name=""
+              placeholder="What would you like to do?"
+            />
+            <button class="search-button">Start Planning</button>
           </div>
         </div>
       </section>
@@ -79,13 +84,85 @@
           <h2>TRAVEL STORIES</h2>
         </div>
         <div class="stories-background">
-          <div class="container stories-column">text inside</div>
+          <div class="stories-column">
+            <div class="story">
+              <img class="story-img" src="./assets/story1.jpg" />
+              <div class="story-txt">
+                <h3 class="story-name">10 Photos of Attractive Thailand</h3>
+                <span class="story-descr"
+                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                  officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit...
+                </span>
+              </div>
+            </div>
+            <div class="story">
+              <img class="story-img" src="./assets/story2.jpg" />
+              <div class="story-txt">
+                <h3 class="story-name">Canyonlands National Park, Utah</h3>
+                <span class="story-descr"
+                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                  officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit...
+                </span>
+              </div>
+            </div>
+            <div class="story">
+              <img class="story-img" src="./assets/story3.jpg" />
+              <div class="story-txt">
+                <h3 class="story-name">I left my heart in the Mountains!</h3>
+                <span class="story-descr"
+                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                  officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit...
+                </span>
+              </div>
+            </div>
+            <div class="story">
+              <img class="story-img" src="./assets/story4.jpg" />
+              <div class="story-txt">
+                <h3 class="story-name">The Longest journey in my life!</h3>
+                <span class="story-descr"
+                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                  officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit...
+                </span>
+              </div>
+            </div>
+            <button class="see-more">
+              <img class="arrow" src="/src/assets/arrow.svg" />
+              See More
+            </button>
+          </div>
         </div>
       </section>
     </main>
 
     <footer>
-      <div class="container"></div>
+      <div class="container">
+        <h3 class="footer-txt">All Rights Reserved © Travel Portal</h3>
+        <div class="footer-logos">
+          <img class="footer-logo" src="/src/assets/footer icon1.svg" />
+          <img class="footer-logo" src="/src/assets/footer icon2.svg" />
+          <img class="footer-logo" src="/src/assets/footer icon3.svg" />
+        </div>
+      </div>
     </footer>
   </body>
   <script src="./scroll.js"></script>

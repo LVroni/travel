@@ -22,3 +22,56 @@
   margin-bottom: 46px;
   display: block;
 }
+
+.search-box {
+  width: 892px;
+  height: 95px;
+  left: 135px;
+  top: 465px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  column-gap: 45px;
+}
+.search-button {
+  width: 228px;
+  height: 59px;
+  background: #0d606f;
+  box-shadow: 0px 0px 3px 0px rgba(13, 96, 111, 0.08);
+  border-radius: 10px;
+  font-family: "Red Hat Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+  border: none;
+}
+.search-txt {
+  font-family: "Aleo";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  background: none;
+  border: none;
+  color: #f2785c;
+  width: 560px;
+  height: 22px;
+  margin-left: 41px;
+  padding: 0px;
+}
+
+@media (max-width: 390px) {
+  .preview {
+    height: 251px;
+    background-size: 100%;
+  }
+  .preview-text {
+    display: none;
+  }
+  h1 {
+    display: none;
+  }
+}

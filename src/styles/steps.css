@@ -6,6 +6,7 @@
   display: flex;
   align-items: center;
   row-gap: 30px;
+  width: 316.38px;
 }
 .step > span {
   font-family: "Aleo";
