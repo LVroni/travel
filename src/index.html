@@ -9,9 +9,10 @@
     <link href="./styles/header.css" rel="stylesheet" />
     <link href="./styles/preview.css" rel="stylesheet" />
     <link href="./styles/steps.css" rel="stylesheet" />
-    <!-- <link href="./styles/destinations.css" rel="stylesheet" /> -->
+    <link href="./styles/destinations.css" rel="stylesheet" />
     <link href="./styles/stories.css" rel="stylesheet" />
     <link href="./styles/footer.css" rel="stylesheet" />
+    <link href="./styles/login-form.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -32,7 +33,7 @@
           <a class="link" id="scroll-destinations"> Destinations</a>
           <a class="link" id="scroll-stories">Travel Stories</a>
         </nav>
-        <button class="login-button">Login</button>
+        <button id="login-button" class="login-button">Login</button>
       </div>
     </header>
 
@@ -75,8 +76,17 @@
         </div>
       </section>
 
-      <section class="destinations">
-        <div class="container"></div>
+      <section class="destinations" style="overflow: hidden">
+        <div class="container">
+          <h2>POPULAR DESTINATIONS</h2>
+        </div>
+
+        <div id="slider"></div>
+        <div id="dots"></div>
+
+        <div class="container">
+          <button class="find-more">Find More</button>
+        </div>
       </section>
 
       <section class="stories">
@@ -164,6 +174,27 @@
         </div>
       </div>
     </footer>
+
+    <div id="login-dialog">
+      <form id="login-form">
+        <h4>Log in to your account</h4>
+        <button type="button"></button>
+        <button type="button"></button>
+        <label>E-mail</label>
+        <input name="email" />
+        <label>Password</label>
+        <input type="password" name="password" />
+        <button type="submit">Sign In</button>
+        <a>Forgot your password?</a>
+        <span>Don't have and account?</span><a>Register</a>
+      </form>
+    </div>
+
+    <div>
+      <form></form>
+    </div>
   </body>
   <script src="./scroll.js"></script>
+  <script src="./slider.js"></script>
+  <script src="./login.js"></script>
 </html>

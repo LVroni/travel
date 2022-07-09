@@ -1,0 +1,30 @@
+.container > h2 {
+  margin-top: 97px;
+}
+
+#slider {
+  display: flex;
+  column-gap: 60px;
+  /* overflow: hidden; */
+  justify-content: center;
+  transform: translateX(0);
+  transition: transform 0.2s;
+}
+
+#dots {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  margin-top: 24px;
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgba(242, 120, 92, 0.5);
+}
+
+.dot-active {
+  background-color: #f2785c;
+}
